@@ -1,0 +1,112 @@
+@font-face {
+  font-family: OpenSans;
+  src: url("../Open_Sans/OpenSans-Regular.ttf") format("truetype"); }
+.events-section .blurb-news {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 30px 0; }
+@media (max-width: 991.98px) {
+  .events-section .blogs-styles {
+    flex-direction: column;
+    display: block; } }
+.events-section .blogs-styles .blurb-column-events {
+  border: 1px solid #cecece;
+  padding: 0;
+  margin-right: 30px;
+  box-shadow: 10px 9px 10px #9a98985e;
+  transition: all .4s ease-in-out;
+  border-top: none; }
+  @media (max-width: 991.98px) {
+    .events-section .blogs-styles .blurb-column-events {
+      margin-bottom: 7%; } }
+  .events-section .blogs-styles .blurb-column-events .img-icon-container {
+    position: relative; }
+    .events-section .blogs-styles .blurb-column-events .img-icon-container > img {
+      max-width: 100%;
+      width: 100%; }
+    .events-section .blogs-styles .blurb-column-events .img-icon-container .icon-container {
+      position: absolute;
+      right: 4%;
+      top: 4%;
+      color: #e4c800;
+      text-align: center; }
+      .events-section .blogs-styles .blurb-column-events .img-icon-container .icon-container .icon-text {
+        position: absolute;
+        color: #021a4f;
+        top: 35%;
+        left: 25%; }
+        .events-section .blogs-styles .blurb-column-events .img-icon-container .icon-container .icon-text h5 {
+          margin: 0;
+          font-weight: 800; }
+        .events-section .blogs-styles .blurb-column-events .img-icon-container .icon-container .icon-text h6 {
+          font-size: 12px;
+          font-weight: bold; }
+  .events-section .blogs-styles .blurb-column-events:nth-child(2) .icon-container {
+    max-width: 100%;
+    display: inline-block;
+    position: absolute;
+    right: 4%;
+    top: 4%;
+    color: #e4c800;
+    text-align: center; }
+    .events-section .blogs-styles .blurb-column-events:nth-child(2) .icon-container .icon-text {
+      position: absolute;
+      color: #021a4f;
+      top: 35%;
+      left: 34%; }
+      .events-section .blogs-styles .blurb-column-events:nth-child(2) .icon-container .icon-text h5 {
+        margin: 0;
+        font-weight: 800; }
+      .events-section .blogs-styles .blurb-column-events:nth-child(2) .icon-container .icon-text h6 {
+        font-size: 12px;
+        font-weight: bold; }
+  .events-section .blogs-styles .blurb-column-events .events-blurbs-description {
+    color: #021a4f;
+    font-size: 14px !important;
+    position: relative;
+    margin: 8% 4% 11%; }
+    .events-section .blogs-styles .blurb-column-events .events-blurbs-description .v1 {
+      border-left: 2px solid #979797a3;
+      height: 19px;
+      position: absolute;
+      left: 46%;
+      top: 0%; }
+    .events-section .blogs-styles .blurb-column-events .events-blurbs-description .events-blurb-description-time {
+      display: inline-block;
+      font-size: .9rem; }
+    .events-section .blogs-styles .blurb-column-events .events-blurbs-description .events-blurb-description-location {
+      position: relative;
+      right: 20%;
+      font-size: .9rem;
+      display: inline-block;
+      left: 12%; }
+      @media (max-width: 991.98px) {
+        .events-section .blogs-styles .blurb-column-events .events-blurbs-description .events-blurb-description-location {
+          left: calc(30% + 5%); } }
+    .events-section .blogs-styles .blurb-column-events .events-blurbs-description > a {
+      color: #021a4f; }
+      .events-section .blogs-styles .blurb-column-events .events-blurbs-description > a .events-description-title h5 {
+        font-size: 16px;
+        font-weight: 600;
+        margin: .5rem 0; }
+      .events-section .blogs-styles .blurb-column-events .events-blurbs-description > a .events-description-title:hover {
+        color: #a7b0c2; }
+    .events-section .blogs-styles .blurb-column-events .events-blurbs-description .events-description-paragraph {
+      color: #4a4a4a;
+      font-size: 16px; }
+  .events-section .blogs-styles .blurb-column-events .events-blurb-description-btn {
+    float: right;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    color: #021a4f;
+    font-weight: 600;
+    font-size: 0.9rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 3% 4%; }
+    .events-section .blogs-styles .blurb-column-events .events-blurb-description-btn:hover {
+      color: #a7b0c2; }
+
+/*# sourceMappingURL=events.css.map */

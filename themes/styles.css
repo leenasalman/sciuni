@@ -1,0 +1,304 @@
+@font-face 
+{
+    font-family: 'TrajanPro';
+    src: URL('trajan-pro-cufonfonts/TrajanPro-Regular.ttf') format('truetype');
+}
+html{
+    height: 100%;
+    min-height: 100% !important;
+}
+.sec-navbar-main
+{
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    z-index: 9999999;
+}
+.secondary-navbar
+{
+    width: 1500px;
+    margin: auto;
+}
+.social-media-container
+{
+    float: right;
+    position: relative;
+    bottom: -18px;
+    
+}
+.social-media-container > a.social-media-icon
+{
+    margin: 0 5px;
+}
+.primary-navbar 
+{
+    position: fixed;
+    background-color: #021a4e;
+    width: 100%;
+    top: 10%;
+    z-index: 9999999;
+}
+.primary-nav-div
+{
+    display: flex;
+    justify-content: center;
+    width: 1195px;
+    margin: auto;
+}
+.primary-navbar .menu-btn-navbar{
+    color: white;
+    position: relative;
+    left: 90%;
+}
+.nav-item
+{
+    color: #fff;
+}
+.nav-link 
+{
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    width: 200px;
+}
+.nav-link:hover
+{
+    color: #b6b6b6;
+}
+.social-media-icon
+{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 3px 2px;
+    width: 23px;
+    background-color: #b6b6b6;
+}
+.social-media-icon-search
+{
+    color: #b6b6b6;
+    display: flex;
+    justify-content: space-around;
+    padding: 3px 2px;
+    margin-left: 20px;
+    width: 23px;
+}
+.image-slider
+{
+    background-image: url('group-8.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 13%;
+}
+.image-slider-div
+{
+    height: 100vh;
+    width: 100%;
+}
+.header-title-container {
+    position: absolute;
+    top: 33%;
+    right: 10%;
+    width: 40%;
+    max-width: 40%;
+    background-color: #01194dcc;
+    color: white;
+    text-transform: uppercase;
+}
+.header-title {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    line-height: 1.63em;
+    padding: 85px 70px;
+    font-family: TrajanPro;
+}
+.news-programmes-container {
+    margin: 55px auto;
+    display: flex;
+    padding: 0;
+}
+div.courses-div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.courses-div .blurb {
+    margin-right: 24px;
+}
+.news-div {
+    height: fit-content;
+    background-color: #f3f3f3;
+    padding: 20px 15px;
+}
+.title-style {
+    font-family: none;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    color: #021a4f;
+}
+.title-style::after {
+    content: "";
+    border-bottom: 1px solid #271a4f;
+    width: 100%;
+    display: block;
+}
+.news-div .news {
+    padding: 20px 0;
+    position: relative;
+}
+.news-div .news > button {
+    float: right;
+}
+.news .news-date{
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    color: #021a4f;
+}
+.news .news-title{
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #021a4f;
+}
+.news .news-content{
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: #4a4a4a;
+}
+.news button{
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: bold;
+    color: #021a4f;
+    background: none;
+    border: none;
+}
+.courses-div .section-news-images-title .news-title {
+    position: relative;
+    top: 25%;
+}
+.courses-div .section-news-images-title {
+    position: relative;
+    bottom: 13%;
+    background-color: #1123479e;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: OpenSans;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-ticker {
+    background-color: #021a4e;
+}
+.section-ticker .div-ticker > div{
+    color: #e4c800;
+    text-align: center;
+    margin: 70px auto;
+}
+.ticker-col > * {
+    margin-bottom: 25px;
+}
+.ticker-col > h3 {
+    font-size: 60px;
+    font-weight: 700;
+}
+.ticker-col > h4 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0 47px;
+}
+.blurb-news {
+    max-width: fit-content;
+}
+.events-section {
+    margin: 4% 0;
+}
+.events-section .blurb-news{
+    margin: auto;
+}
+.events-blurbs-description .v1 {
+    border-left: 1px solid #979797;
+    height: 19px;
+    position: absolute;
+    left: 43%;
+    top: 60%;
+}
+.events-blurb-description-time{
+    font-size: 14px;
+    display: inline;
+} 
+.events-blurb-description-location {
+    float: right;
+    position: relative;
+    right: 20%;
+    font-size: 14px;
+}
+.events-blurb-description-btn{
+    float: right;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #021a4f;
+    font-weight: 600;
+}
+.blurb-column-events {
+    border: 1px solid #cecece;
+}
+.section-two .news-programmes-container .courses-div .blurb > a {
+    text-decoration: none;
+}
+@media only screen 
+
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  {
+      .primary-navbar{
+          width: 100%;
+          top: 10%;
+          height: 3vh;
+      }
+      .sec-navbar-main{
+          height: 10vh;
+      }
+
+  }
+  @media only screen
+  and (min-device-width: 375px) 
+  and (max-device-width: 944px) {
+    .header-title-container{ 
+        top: 35%;
+        width: 81%;
+    }
+
+  }

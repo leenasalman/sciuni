@@ -1,0 +1,59 @@
+@import '../bootstrap-4.5.0/scss/functions.scss';
+@import '../bootstrap-4.5.0/scss/variables.scss';
+@import '../bootstrap-4.5.0/scss/mixins';
+@import 'variables.scss';
+
+.admission-section
+{
+    width: 100%;
+    background-image: url('../Assets/Images/admission-background.png');
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    .addmission-row-title
+    {
+        padding: 20px 0 60px 0;
+        .addmission-title
+        {
+            h2
+            {
+                font-size: 58px;
+                font-weight: 800;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.59;
+                letter-spacing: normal;
+                text-align: center;
+                color: $greenVogue;
+                text-shadow: 0 2px 4px rgba(83, 83, 83, 0.48);
+            }
+        }
+    }
+    .admission-row-btn 
+    {
+        padding-bottom: 20px;
+        .admission-btn
+        {
+            text-align: center;
+            .button-animation {          
+                background-color: $greenVogueMain;              
+                font-size: 4rem;   
+                font-weight: 800;
+                text-transform: uppercase;
+                text-align: center;
+                color: $corn;
+                border: none;
+                width: 40%;
+                padding: 1% 0;
+                transition: background-color .4s, color .4s;
+                @include media-breakpoint-between(xs, md){
+                    font-size: 2rem;
+                }
+                @include media-breakpoint-up(1024px){
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+}

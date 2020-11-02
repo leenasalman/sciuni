@@ -1,0 +1,167 @@
+.navbar-styles {
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 9999999;
+  padding: 0; }
+  @media (max-width: 991.98px) {
+    .navbar-styles {
+      box-shadow: 0px 30px 65px #556b9a30; } }
+  .navbar-styles .navbar-brand-container {
+    margin-left: 151px;
+    padding-top: 13px;
+    padding-bottom: 14px; }
+    @media (min-width: 576px) and (max-width: 991.98px) {
+      .navbar-styles .navbar-brand-container {
+        margin-left: 30px; } }
+    .navbar-styles .navbar-brand-container .navbar-brand {
+      padding-top: 0;
+      padding-bottom: 0; }
+  @media (max-width: 991.98px) {
+    .navbar-styles .btn-menu-burger {
+      position: absolute;
+      right: 4%;
+      margin-left: 1rem;
+      z-index: 999999999999;
+      color: #30446f;
+      bottom: 15%; } }
+  .navbar-styles .btn-menu-burger i {
+    font-size: 2rem; }
+  .navbar-styles .search-social-container {
+    position: absolute;
+    right: 7rem;
+    bottom: 1rem;
+    top: 1.5rem;
+    margin-right: 45px; }
+    @media (min-width: 576px) and (max-width: 991.98px) {
+      .navbar-styles .search-social-container {
+        margin-right: 0; } }
+    .navbar-styles .search-social-container .social-media-icon {
+      color: white;
+      background-color: #b6b6b6;
+      padding: 3px;
+      transition: color .2s, background-color .2s ease-in; }
+      .navbar-styles .search-social-container .social-media-icon > i {
+        min-width: 1rem;
+        font-size: 16px;
+        text-align: center; }
+      .navbar-styles .search-social-container .social-media-icon:hover {
+        background-color: #fff;
+        color: #b6b6b6; }
+    .navbar-styles .search-social-container .search-box-container {
+      z-index: 9999; }
+      .navbar-styles .search-social-container .search-box-container .social-media-icon-search {
+        color: #b6b6b6;
+        cursor: pointer; }
+        .navbar-styles .search-social-container .search-box-container .social-media-icon-search > i {
+          min-width: 1rem;
+          font-size: 1.2rem;
+          text-align: center; }
+          @media (min-width: 576px) and (max-width: 991.98px) {
+            .navbar-styles .search-social-container .search-box-container .social-media-icon-search > i {
+              font-size: 2rem; } }
+      .navbar-styles .search-social-container .search-box-container .search-box-field {
+        border: none;
+        border-bottom: 1px solid #b6b6b6;
+        outline: none;
+        transform: scaleX(0);
+        width: 0;
+        transition: transform .7s, width .7s ease-in-out;
+        background-color: transparent;
+        transform-origin: 100% 50%; }
+      .navbar-styles .search-social-container .search-box-container .search-box-field-new {
+        transform: scaleX(1);
+        width: 200px; }
+        @media (min-width: 576px) and (max-width: 991.98px) {
+          .navbar-styles .search-social-container .search-box-container .search-box-field-new {
+            width: 350px;
+            height: 100%;
+            border-bottom-width: 3px; } }
+  .navbar-styles .navbar-container.collapsing {
+    position: static;
+    height: 100%;
+    overflow: hidden;
+    transition: inherit; }
+  .navbar-styles .navbar-container.collapse:not(.show) {
+    display: inherit; }
+  .navbar-styles .navbar-container .logo-socials-row {
+    position: absolute;
+    right: 16%; }
+    @media (min-width: 576px) and (max-width: 991.98px) {
+      .navbar-styles .navbar-container .logo-socials-row {
+        left: 0px;
+        position: absolute;
+        right: 16%;
+        bottom: 0%;
+        top: 31rem; } }
+    .navbar-styles .navbar-container .logo-socials-row .social-media-icon {
+      color: white;
+      background-color: #b6b6b6;
+      padding: 3px; }
+      @media (min-width: 576px) and (max-width: 991.98px) {
+        .navbar-styles .navbar-container .logo-socials-row .social-media-icon {
+          border-radius: 100%;
+          margin-right: 1rem;
+          background-color: #1c3260;
+          padding: 12px; } }
+      .navbar-styles .navbar-container .logo-socials-row .social-media-icon > i {
+        min-width: 1rem;
+        font-size: 16px;
+        text-align: center; }
+        @media (min-width: 576px) and (max-width: 991.98px) {
+          .navbar-styles .navbar-container .logo-socials-row .social-media-icon > i {
+            min-width: 2rem;
+            font-size: 20px; } }
+  .navbar-styles .navbar-container .container-nav-links {
+    background-color: #021a4e;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    justify-content: center;
+    display: inline-block;
+    left: 0; }
+    @media (min-width: 576px) and (max-width: 991.98px) {
+      .navbar-styles .navbar-container .container-nav-links {
+        background-color: #ffffff;
+        padding: 1rem 0;
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        transform: translateX(100%); } }
+    .navbar-styles .navbar-container .container-nav-links .navbar-links {
+      justify-content: center; }
+      @media (min-width: 576px) and (max-width: 991.98px) {
+        .navbar-styles .navbar-container .container-nav-links .navbar-links {
+          justify-content: flex-start;
+          position: absolute;
+          left: 4%;
+          top: 4%;
+          width: 100%; } }
+      .navbar-styles .navbar-container .container-nav-links .navbar-links .navbar-nav .nav-item {
+        width: 100%;
+        text-align: center; }
+        @media (min-width: 576px) and (max-width: 991.98px) {
+          .navbar-styles .navbar-container .container-nav-links .navbar-links .navbar-nav .nav-item {
+            color: #021a4e; } }
+        .navbar-styles .navbar-container .container-nav-links .navbar-links .navbar-nav .nav-item .nav-link {
+          text-transform: uppercase;
+          font-size: 14px;
+          text-align: center;
+          color: #fff;
+          width: 180px; }
+          @media (min-width: 576px) and (max-width: 991.98px) {
+            .navbar-styles .navbar-container .container-nav-links .navbar-links .navbar-nav .nav-item .nav-link {
+              text-align: left;
+              width: 100%;
+              font-size: 1.5rem;
+              color: #1c3260; } }
+          .navbar-styles .navbar-container .container-nav-links .navbar-links .navbar-nav .nav-item .nav-link:hover {
+            color: #b6b6b6; }
+      @media (min-width: 576px) and (max-width: 991.98px) {
+        .navbar-styles .navbar-container .container-nav-links .navbar-links .navbar-nav > * {
+          line-height: 4rem; } }
+  .navbar-styles .navbar-container .transitionNavBar {
+    transform: translateX(10%);
+    box-shadow: 30px 0px 65px #021a4f; }
+  .navbar-styles .navbar-container .mobileTransition {
+    transition: transform .6s, box-shadow .6s ease-out; }

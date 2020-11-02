@@ -1,0 +1,54 @@
+@import '../../bootstrap-4.5.0/scss/functions.scss';
+@import '../../bootstrap-4.5.0/scss/variables.scss';
+@import '../../bootstrap-4.5.0/scss/mixins';
+@import '../variables.scss';
+
+$primary-title-color: #021a4f;
+// ABOUT HEADER SECTION START
+section.about-header-section {
+    padding: 0;
+    .about-header-img {
+        > img {
+            width: 100%;
+        }
+    }
+}
+// ABOUT HEADER SECTION END
+
+// ABOUT INFO SECTION START
+.about-section{
+    .about-title-container{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .about-info-image{
+        @include media-breakpoint-between(sm, md){
+            flex-direction: column;
+            text-align: center;
+            display: block;
+        }
+        .about-info {
+            align-items: center;
+            @include media-breakpoint-between(sm, md){
+                margin-bottom: 5rem;
+            }
+            > p {
+                font-size: 1.2rem;
+                line-height: 1.7rem;
+                @include media-breakpoint-between(sm, md){
+                    font-size: 1.7rem;
+                    line-height: 2.7rem;
+                }
+            }
+        }
+        .about-img{
+            @include media-breakpoint-between(sm, md){
+                margin-bottom: 60px;
+            }
+            > img {
+                border-radius: 100%;
+            }
+        }
+    }
+}
+// ABOUT INFO SECTION END

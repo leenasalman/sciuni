@@ -1,0 +1,54 @@
+section.about-header-section {
+  padding: 0;
+}
+section.about-header-section .about-header-img > img {
+  width: 100%;
+}
+
+.about-section .about-title-container {
+  margin-bottom: 30px;
+  text-align: center;
+}
+@media (max-width: 991.98px) {
+  .about-section .blurb-news .title-style {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .about-section .about-info-image {
+    flex-direction: column;
+    text-align: center;
+    display: block;
+  }
+}
+.about-section .about-info-image .about-info {
+  align-items: center;
+}
+@media (max-width: 1199.98px) {
+  .about-section .about-info-image .about-info {
+    margin-bottom: 5rem;
+  }
+}
+.about-section .about-info-image .about-info > p {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+@media (max-width: 991.98px) {
+  .about-section .about-info-image .about-info > p {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .about-section .about-info-image .about-info > p {
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+  }
+}
+@media (max-width: 1199.98px) {
+  .about-section .about-info-image .about-img {
+    margin-bottom: 60px;
+  }
+}
+.about-section .about-info-image .about-img > img {
+  border-radius: 100%;
+}

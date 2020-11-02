@@ -1,0 +1,36 @@
+@import '../bootstrap-4.5.0/scss/functions.scss';
+@import '../bootstrap-4.5.0/scss/variables.scss';
+@import '../bootstrap-4.5.0/scss/mixins';
+@import 'variables.scss';
+
+.button-animation {
+    &:hover {
+        background-color: $corn !important; 
+        color: $greenVogueMain !important;
+    }
+}
+.courses-div{
+    .blurb {
+        &:hover {
+            transform: scale(1.03);
+            z-index: 9;
+        }   
+    }
+}
+
+.events-section{
+    .blogs-styles{
+        .blurb-column-events{
+            &:hover {
+                transform: scale(1.03);
+                z-index: 9;
+            }
+        }
+    }
+}
+
+a {
+  &:hover{
+      text-decoration: none;
+  }
+}

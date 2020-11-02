@@ -1,0 +1,68 @@
+@import '../bootstrap-4.5.0/scss/functions.scss';
+@import '../bootstrap-4.5.0/scss/variables.scss';
+@import '../bootstrap-4.5.0/scss/mixins';
+@import 'variables.scss';
+// Header Section styles start
+section.image-slider
+{
+    padding: 0;
+    position: relative;
+    .carousel-slider 
+    {
+        overflow-y: hidden;
+        .carousel-indicators {
+            > li {
+                width: 10px;
+                height: 10px;
+                border-radius: 100%;
+            }
+        }
+        .carousel-inner {
+            .carousel-item
+            {
+                @include media-breakpoint-between(sm, md){
+                    height: 45vh;
+                }
+                > img {
+                width: 100%;
+                height: 100%;
+                @include media-breakpoint-between(sm, md){
+                    width: unset;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .header-title-container 
+    {
+            position: absolute;
+            top: 30%;
+            right: 10%;
+            width: 30%;
+            background-color: rgba(2, 26, 78, 0.75);
+            color: white;
+            text-transform: uppercase;
+            @include media-breakpoint-between(xs, md){
+                width: 83%;
+            }
+            .header-title 
+            {
+                font-size: 40px;
+                text-align: center;
+                position: relative;
+                top: 20%;
+                line-height: 1.63em;
+                padding: 12% 13%;
+                font-family: TrajanPro;
+                @include media-breakpoint-between(xs, md) {
+                    padding: 50px 30px;
+                    font-size: 30px;
+                }
+                @include media-breakpoint-down(lg){
+                    font-size: 27px;
+                }
+            }
+        }
+    }
+}
+// Header Section styles end

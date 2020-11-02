@@ -1,0 +1,87 @@
+@import '../bootstrap-4.5.0/scss/functions.scss';
+@import '../bootstrap-4.5.0/scss/variables.scss';
+@import '../bootstrap-4.5.0/scss/mixins';
+@import 'variables.scss';
+
+// FORM SECTION START
+.form-section {
+    .form-row-contain {
+        .form-col-container {
+            padding: 80px 0;
+            background-color: #f7f7f7;
+            .blurb-news {
+                padding-bottom: 30px;
+            }
+            .form-style {
+                width: 100%;
+                margin: 0 20%;
+                .full-name-phone-number {
+                    width: 100%;
+                    .form-name {
+                        width: 48%;
+                        float: left;
+                        @include media-breakpoint-between(sm, md) {
+                            width: 100%;
+                            float: unset;
+                            margin-bottom: 1rem;
+                        }
+                        > input {
+                            width: 100%;
+                            border: 1px solid #d4d4d4;
+                            outline: none;
+                            padding: 9px 0 9px 10px;
+                        } 
+                    }
+                    .form-phone {
+                        width: 48%;
+                        float: right;
+                        @include media-breakpoint-between(sm, md) {
+                            width: 100%;
+                            margin-bottom: 1rem;
+                            float: unset;
+                        }
+                        > input {
+                            width: 100%;
+                            border: 1px solid #d4d4d4;
+                            outline: none;
+                            padding: 9px 0 9px 10px;
+                        }
+                    }   
+                }
+                .email {
+                    > input {
+                        width: 100%;
+                        border: 1px solid #d4d4d4;
+                        outline: none;
+                        padding: 9px 0 9px 10px;
+                    }
+                }
+                .txtarea {
+                    > textarea {
+                        border: 1px solid #d4d4d4;
+                        outline: none;
+                        padding: 9px 0 9px 10px;
+                        width: 100%;
+                    } 
+                }
+                .form-btn {
+                    text-align: center;
+                    padding-top: 14px;
+                    > .button-animation {
+                        background-color: $greenVogueMain;
+                        color: $corn;
+                        border: none;
+                        text-transform: uppercase;
+                        width: 140px;
+                        height: 45px;
+                        outline: none;
+                        font-weight: 500;
+                        font-size: 18px;
+                        transition: background-color .4s, color .4s;
+                    }
+                }
+            }
+        }
+    }
+}
+// FORM SECTION END

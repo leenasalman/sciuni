@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,wBAAwB;EACpB,gBAAgB,EAAE,OAAO;EACzB,yDAAgC;IAC5B,UAAU,EAAE,MAAM;IAClB,aAAa,EAAE,IAAI;ECgFvB,mDAA+C;ID9E/C,8CAAsB;MAEd,cAAc,EAAE,MAAM;MACtB,OAAO,EAAE,KAAK;EAElB,qDAAO;IACH,aAAa,EAAE,MAAM;IAKrB,0EAAI;MACA,aAAa,EAAE,IAAI;MCkE/B,mDAA+C;QDnEvC,0EAAI;UAGI,aAAa,EAAE,CAAC;MAEpB,iFAAO;QACH,UAAU,EAAE,MAAM;QAClB,mFAAE;UACE,SAAS,EAAE,IAAI;UACf,KAAK,EAAE,OAAO;IC0DlC,mDAA+C;MDrD/B,8EAAG;QAGK,SAAS,EAAE,MAAM",
+"sources": ["why-science-uni.scss","../../bootstrap-4.5.0/scss/mixins/_breakpoints.scss"],
+"names": [],
+"file": "why-science-uni.css"
+}

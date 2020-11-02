@@ -1,0 +1,42 @@
+@import '../bootstrap-4.5.0/scss/functions.scss';
+@import '../bootstrap-4.5.0/scss/variables.scss';
+@import '../bootstrap-4.5.0/scss/mixins';
+
+@import 'variables.scss';
+.section-ticker 
+{
+    background-color: $greenVogueMain;
+    .div-ticker 
+    {
+        @include media-breakpoint-between(xs, md){
+            flex-direction: column;
+            display: block;
+        }
+        > .ticker-col
+        {
+            color: $corn;
+            text-align: center;
+            > *
+            {
+                &:not(:last-child){
+                    margin-bottom: 25px;
+                }
+            }
+            .ticker-header-title{
+                display: flex;
+                justify-content: center;
+                > h3 
+                {
+                    font-size: 60px;
+                    font-weight: 700;
+                }
+            }
+            > h4 
+            {
+                font-size: 24px;
+                font-weight: 600;
+                padding: 0 47px;
+            }
+        }
+    }
+}

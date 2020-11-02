@@ -1,0 +1,101 @@
+.button-animation:hover {
+  background-color: #e4c800 !important;
+  color: #021a4e !important;
+}
+
+.courses-div .blurb:hover {
+  transform: scale(1.03);
+  z-index: 9;
+}
+
+.events-section .blogs-styles .events-container-bg:hover {
+  transform: scale(1.03);
+  z-index: 9;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.caret {
+  color: white;
+}
+.caret .fa-angle-up {
+  transform: rotateX(180deg);
+  transition: transform 0.4s ease;
+}
+@media (min-width: 1200px) {
+  .caret {
+    display: none;
+  }
+}
+
+.caret-up .fa-angle-up {
+  transform: rotateX(0);
+}
+@media (min-width: 1200px) {
+  .caret-up {
+    display: none;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .footer-title-caret-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.search-box-transition {
+  position: fixed;
+  height: 50vh;
+  z-index: 99999;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transform: rotateX(180deg);
+  transition: all 0.7s ease;
+  transform-origin: top;
+  width: 100%;
+}
+.search-box-transition .input-border-style {
+  border: 2px solid #a99797b3;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 35px 50px;
+  border-radius: 15px;
+}
+.search-box-transition .input-border-style .search-box-field {
+  border: none;
+  border-bottom: 3px solid #b6b6b6;
+  outline: none;
+  width: 100%;
+  font-size: 1.4rem;
+}
+.search-box-transition .close-search-box {
+  top: 30px;
+  position: absolute;
+  right: 30px;
+  display: inline-block;
+  padding: 30px 20px;
+}
+.search-box-transition .close-search-box .fa-slash {
+  display: block;
+  width: 45px;
+  height: 1px;
+  background: #000;
+  transform: rotate(0deg);
+  transition: all 0.4s ease;
+}
+.search-box-transition .close-search-box .fa-slash.first-child {
+  transform: rotate(45deg);
+}
+.search-box-transition .close-search-box .fa-slash.second-child {
+  transform: rotate(-45deg);
+}
+
+.search-box-transition-after {
+  transform: rotateX(0);
+  box-shadow: 2px 11px 65px #021a4f;
+}

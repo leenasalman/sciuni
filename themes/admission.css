@@ -1,0 +1,42 @@
+@font-face {
+  font-family: OpenSans;
+  src: url("../Open_Sans/OpenSans-Regular.ttf") format("truetype"); }
+
+.admission-section {
+  width: 100%;
+  background-image: url("../Assets/Images/admission-background.png");
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .admission-section .addmission-row-title {
+    padding: 20px 0 60px 0; }
+    .admission-section .addmission-row-title .addmission-title h2 {
+      font-size: 58px;
+      font-weight: 800;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.59;
+      letter-spacing: normal;
+      text-align: center;
+      color: #021a4f;
+      text-shadow: 0 2px 4px rgba(83, 83, 83, 0.48); }
+  .admission-section .admission-row-btn {
+    padding-bottom: 20px; }
+    .admission-section .admission-row-btn .admission-btn {
+      text-align: center; }
+      .admission-section .admission-row-btn .admission-btn .button-animation {
+        background-color: #021a4e;
+        font-size: 4rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        text-align: center;
+        color: #e4c800;
+        border: none;
+        width: 40%;
+        padding: 1% 0;
+        transition: background-color .4s, color .4s;
+        font-size: 3rem; }
+        @media (max-width: 991.98px) {
+          .admission-section .admission-row-btn .admission-btn .button-animation {
+            font-size: 2rem; } }

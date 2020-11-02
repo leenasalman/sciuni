@@ -1,0 +1,145 @@
+@import '../bootstrap-4.5.0/scss/functions.scss';
+@import '../bootstrap-4.5.0/scss/variables.scss';
+@import '../bootstrap-4.5.0/scss/mixins';
+@import 'variables.scss';
+
+// primary footer section styles START
+.footer-section 
+{
+    position: relative;
+    background-color: #021a4e;
+    .footer-row{
+        padding: 62px 0 98px 0;
+        @include media-breakpoint-between(sm, md){
+            padding: 5rem 0;
+        }
+        .v-line-divider 
+        {
+            border-left: 1px solid #4d4d4d;
+            margin: 7px 0;
+        }
+        .tablet-footer-width {
+            @include media-breakpoint-between(sm, md){
+                width: 100%;
+            }
+            @include media-breakpoint-between(md, lg){
+                width: 100%;
+            }
+        }
+    .footer-subtitles 
+    {
+        color: $corn;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2.6rem;
+    }
+    .footer-list 
+    {
+        list-style: none;
+        padding-left: 0;
+        > li 
+        {
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-size: 14px;
+            @include media-breakpoint-between(xs, sm){
+                font-size: 11px;
+            }
+            > span {
+                @include media-breakpoint-between(sm, md){
+                    margin: 0;
+                }
+            }
+            > a {
+                color: #fff;
+            }
+            &:hover{
+                color: #b6b6b6;
+                > a {
+                    color: #b6b6b6;
+                }
+            }
+            
+        }
+    }
+    .social-media-icon 
+    {
+        padding: 4px;
+        > i {
+            min-width: 1rem;
+            font-size: 16px;
+            text-align: center;
+            
+        }
+        > a {
+            color: #fff;
+        }
+    }
+    .how-to-find-us 
+    {
+        ul 
+        {
+            > li 
+            {
+                line-height: 2.6em;
+                color: #fff;
+                > span 
+                {
+                    margin: 0 10px 0 15px;
+                    @include media-breakpoint-between(sm, lg){
+                        margin: 0 10px 0 0px;
+                    }
+                    > i 
+                    {
+                        min-width: 1rem;
+                    }
+                }
+            }
+        } 
+    }
+    .follow-us {
+        @include media-breakpoint-between(sm, lg){
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: flex-end;
+        }
+        > .follow-us-row {
+            margin: 25px 0 40px 0;
+            @include media-breakpoint-between(sm, md){
+                justify-content: start;
+            }
+            .social-media-follow-us {
+                > a {
+                    color: #fff;
+                    &:hover{
+                        color: #b6b6b6;
+                    }
+                }
+            }
+        }
+    }
+}
+}
+// primary footer section styles END
+
+// secondary footer section styles START
+.secondary-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #223663;
+    color: #fff;
+    .row {
+        > * {
+            font-size: .7rem;
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+        > span {
+            margin-right: 5px;
+        }
+    }
+}
+
+// secondary footer section styles END

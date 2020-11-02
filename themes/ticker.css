@@ -1,0 +1,26 @@
+@font-face {
+  font-family: OpenSans;
+  src: url("../Open_Sans/OpenSans-Regular.ttf") format("truetype"); }
+.section-ticker {
+  background-color: #021a4e; }
+  @media (max-width: 991.98px) {
+    .section-ticker .div-ticker {
+      flex-direction: column;
+      display: block; } }
+  .section-ticker .div-ticker > .ticker-col {
+    color: #e4c800;
+    text-align: center; }
+    .section-ticker .div-ticker > .ticker-col > *:not(:last-child) {
+      margin-bottom: 25px; }
+    .section-ticker .div-ticker > .ticker-col .ticker-header-title {
+      display: flex;
+      justify-content: center; }
+      .section-ticker .div-ticker > .ticker-col .ticker-header-title > h3 {
+        font-size: 60px;
+        font-weight: 700; }
+    .section-ticker .div-ticker > .ticker-col > h4 {
+      font-size: 24px;
+      font-weight: 600;
+      padding: 0 47px; }
+
+/*# sourceMappingURL=ticker.css.map */

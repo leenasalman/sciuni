@@ -1,0 +1,19 @@
+@font-face {
+  font-family: OpenSans;
+  src: url("../Open_Sans/OpenSans-Regular.ttf") format("truetype"); }
+.button-animation:hover {
+  background-color: #e4c800 !important;
+  color: #021a4e !important; }
+
+.courses-div .blurb:hover {
+  transform: scale(1.03);
+  z-index: 9; }
+
+.events-section .blogs-styles .blurb-column-events:hover {
+  transform: scale(1.03);
+  z-index: 9; }
+
+a:hover {
+  text-decoration: none; }
+
+/*# sourceMappingURL=animation.css.map */

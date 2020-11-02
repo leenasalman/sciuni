@@ -1,0 +1,200 @@
+@import '../../bootstrap-4.5.0/scss/functions.scss';
+@import '../../bootstrap-4.5.0/scss/variables.scss';
+@import '../../bootstrap-4.5.0/scss/mixins';
+@import 'variables.scss';
+
+// News Section Styles Start
+.news-programmes-container 
+{
+    .courses-div 
+    {
+        @include media-breakpoint-down(lg){
+            flex-direction: column;
+            display: block;
+        }
+        .col-first
+        {
+            margin-right: 29px;
+            @include media-breakpoint-down(lg){
+                margin-bottom: 40px;
+            }
+            .courses-row-first{
+                margin-bottom: 30px;
+                .col {
+                    @include media-breakpoint-down(lg){
+                        height: 100%;
+                        max-height: 100%;
+                    }
+                }
+            }
+            .blurb 
+            {
+                box-shadow: 10px 9px 10px #9a98985e;
+                transition: all .4s ease-in-out;
+                position: relative;
+                overflow: hidden;
+                @include media-breakpoint-down(lg){
+                    width: 100%;
+                }
+                @include media-breakpoint-up(1024px){
+                    width: 100%;
+                }
+                a{
+                    > img {
+                        @include media-breakpoint-down(lg){
+                            width: 100%;
+                            max-width: 100%;
+                        }
+                    }
+                }
+            }
+            .section-news-images-title 
+            {
+                background-color: rgba(2, 26, 78, 0.8);
+                color: white;
+                width: 100%;
+                font-size: 16px;
+                font-weight: bold;
+                font-family: OpenSans;
+                text-transform: uppercase;
+                text-align: center;
+                padding: 10px 0;
+                position: absolute;
+                top: inherit;
+                bottom: 0;
+                margin-bottom: 0;
+                letter-spacing: 0.4px;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                @include media-breakpoint-down(md){
+                    font-size: 10px;
+                }
+                @include media-breakpoint-between(md, lg){
+                    font-size: 1rem;
+                }
+                .news-title 
+                {
+                    position: relative;
+                    top: 25%;
+                }
+            }
+        }
+        .news-div 
+        {
+            .background-color-news-container{
+                background-color: #f3f3f3;
+            padding: 20px 15px;
+            box-shadow: 10px 9px 10px #9a98985e;
+                .news 
+                {
+                    padding: 20px 0;
+                    position: relative;
+                    > .news-btn 
+                    {
+                        float: right;
+                        font-family: OpenSans;
+                        font-size: 14px;
+                        font-weight: bold;
+                        color: #021a4f;
+                        background: none;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: 0.35px;
+                        border: none;
+                        &:hover{
+                            color: #a7b0c2;
+                        }
+                        @include media-breakpoint-down(md){
+                            font-size: 14px;
+                        }
+                        @include media-breakpoint-between(md, lg){
+                            font-size: 18px;
+                        }
+                    }
+                    .news-date
+                    {
+                        font-family: OpenSans;
+                        font-size: 14px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.64;
+                        letter-spacing: normal;
+                        color: $greenVogue;
+                        @include media-breakpoint-down(md){
+                            font-size: 16px;
+                        }
+                        @include media-breakpoint-between(md, lg){
+                            font-size: 18px;
+                        }
+                    }
+                    .news-title
+                    {
+                        font-family: OpenSans;
+                        font-size: 16px;
+                        font-weight: 600;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: 0.4px;
+                        color: $greenVogue;
+                        &:hover{
+                            color: #a7b0c2;
+                        }
+                        @include media-breakpoint-down(md){
+                            font-size: 16px;
+                        }
+                        @include media-breakpoint-between(md, lg){
+                            font-size: 22px;
+                        }
+                    }
+                    .news-content
+                    {
+                        font-family: OpenSans;
+                        font-size: 16px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.63;
+                        letter-spacing: normal;
+                        color: $eventsDescriptionParagraph;
+                        @include media-breakpoint-down(md){
+                            font-size: 16px;
+                        }
+                        @include media-breakpoint-between(md, lg){
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.blurb-news
+{
+    .title-style 
+    {
+        font-family: OpenSans;
+        text-transform: uppercase;
+        font-size: 36px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.9px;
+        color: $greenVogue;
+        display: inline-block;
+        &:after 
+        {
+            content: "";
+            border-bottom: 1px solid #271a4f;
+            width: 100%;
+            display: block;
+        }
+    }
+}
+// News Section Styles End

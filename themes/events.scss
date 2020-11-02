@@ -1,0 +1,173 @@
+@import '../bootstrap-4.5.0/scss/functions.scss';
+@import '../bootstrap-4.5.0/scss/variables.scss';
+@import '../bootstrap-4.5.0/scss/mixins';
+
+@import 'variables.scss';
+
+// Events section start
+.events-section 
+{
+    .blurb-news
+    {
+        display: flex;
+        justify-content: center;
+        margin: 0 0 30px 0;
+    }
+    .blogs-styles
+    {
+        @include media-breakpoint-between(xs, md){
+            flex-direction: column;
+            display: block;
+        }
+        .blurb-column-events 
+        {
+            border: 1px solid #cecece;
+            padding: 0;
+            margin-right: 30px;
+            box-shadow: 10px 9px 10px #9a98985e;
+            transition: all .4s ease-in-out;
+            border-top: none;
+            @include media-breakpoint-between(xs, md){
+                margin-bottom: 7%;
+            }
+            .img-icon-container 
+            {
+                position: relative;
+                > img 
+                {
+                    max-width: 100%;
+                    width: 100%;
+                }
+                .icon-container
+                {
+                    // max-width: 100%;
+                    // display: inline-block;
+                    position: absolute;
+                    right: 4%;
+                    top: 4%;
+                    color: $corn;
+                    text-align: center;
+                    .icon-text 
+                    {
+                        position: absolute;
+                        color: $greenVogue;
+                        top: 35%;
+                        left: 25%;
+                        h5
+                        {
+                            margin: 0;
+                            font-weight: 800;
+                        }
+                        h6
+                        {
+                            font-size: 12px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+            &:nth-child(2) 
+            {
+                .icon-container
+                {
+                    max-width: 100%;
+                    display: inline-block;
+                    position: absolute;
+                    right: 4%;
+                    top: 4%;
+                    color: $corn;
+                    text-align: center;
+                    .icon-text 
+                    {
+                        position: absolute;
+                        color: $greenVogue;
+                        top: 35%;
+                        left: 34%;
+                        h5
+                        {
+                            margin: 0;
+                            font-weight: 800;
+                        }
+                        h6
+                        {
+                            font-size: 12px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+            .events-blurbs-description 
+            {
+                color: $greenVogue;
+                font-size: 14px !important; 
+                position: relative;
+                // display: inline-block;
+                margin: 8% 4% 11%;
+                .v1 
+                {
+                    border-left: 2px solid #979797a3;
+                    height: 19px;
+                    position: absolute;
+                    left: 46%;
+                    top: 0%;
+                }
+                .events-blurb-description-time
+                {
+                    display: inline-block;
+                    font-size: .9rem;
+                } 
+                .events-blurb-description-location 
+                {
+                    position: relative;
+                    right: 20%;
+                    font-size: .9rem;
+                    display: inline-block;
+                    left: 12%;
+                    @include media-breakpoint-between(xs, md){
+                        left: calc(30% + 5%);
+                    }
+
+                }
+                > a {
+                    color: $greenVogue;
+                    .events-description-title 
+                    {
+                        h5 
+                        {
+                            font-size: 16px;
+                            font-weight: 600;
+                            margin: .5rem 0;
+                        }
+                        &:hover{
+                            color: #a7b0c2;
+                        }
+                    }
+                }
+                .events-description-paragraph
+                {
+                    color: $eventsDescriptionParagraph;
+                    font-size: 16px;
+                }
+            }
+            .events-blurb-description-btn
+                {
+                    float: right;
+                    border: none;
+                    background: none;
+                    text-transform: uppercase;
+                    color: $greenVogue;
+                    font-weight: 600;
+                    font-size: 0.9rem;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    margin: 3% 4%;
+                    &:hover{
+                        color: #a7b0c2;
+                    }
+                }
+        }
+    }
+}
+
+// Events section End

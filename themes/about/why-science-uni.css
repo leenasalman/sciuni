@@ -1,0 +1,32 @@
+@font-face {
+  font-family: OpenSans;
+  src: url("../Assets/Fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: TrajanPro;
+  src: url("../Assets/Fonts/TrajanPro/TrajanPro-Regular.ttf") format("truetype"); }
+
+.why-science-uni-section {
+  background-color: #f7f7f7; }
+  .why-science-uni-section .why-science-uni-title-container {
+    text-align: center;
+    margin-bottom: 30px; }
+  @media (min-width: 576px) and (max-width: 991.98px) {
+    .why-science-uni-section .why-science-uni-info {
+      flex-direction: column;
+      display: block; } }
+  .why-science-uni-section .why-science-uni-info > .col {
+    margin-bottom: 1.5rem; }
+    .why-science-uni-section .why-science-uni-info > .col .icon-container .row {
+      margin-bottom: 2rem; }
+      @media (min-width: 576px) and (max-width: 991.98px) {
+        .why-science-uni-section .why-science-uni-info > .col .icon-container .row {
+          margin-bottom: 0; } }
+      .why-science-uni-section .why-science-uni-info > .col .icon-container .row .col-3 {
+        text-align: center; }
+        .why-science-uni-section .why-science-uni-info > .col .icon-container .row .col-3 i {
+          font-size: 3rem;
+          color: #e7ce16; }
+    @media (min-width: 576px) and (max-width: 991.98px) {
+      .why-science-uni-section .why-science-uni-info > .col .icon-container .col > p {
+        font-size: 1.2rem; } }

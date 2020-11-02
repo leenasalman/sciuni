@@ -1,0 +1,79 @@
+.form-section .form-row-contain .form-col-container .form-bg-container {
+  padding: 80px 15px;
+  background-color: #f7f7f7;
+}
+.form-section .form-row-contain .form-col-container .blurb-news {
+  padding-bottom: 30px;
+}
+.form-section .form-row-contain .form-col-container .form-style {
+  width: 100%;
+}
+.form-section .form-row-contain .form-col-container .form-style .full-name-phone-number {
+  width: 100%;
+}
+.form-section .form-row-contain .form-col-container .form-style .full-name-phone-number .form-name {
+  width: 48%;
+  float: left;
+}
+@media (max-width: 1199.98px) {
+  .form-section .form-row-contain .form-col-container .form-style .full-name-phone-number .form-name {
+    width: 100%;
+    float: unset;
+    margin-bottom: 1rem;
+  }
+}
+.form-section .form-row-contain .form-col-container .form-style .full-name-phone-number .form-name > input {
+  width: 100%;
+  border: 1px solid #d4d4d4;
+  outline: none;
+  padding: 9px 0 9px 10px;
+}
+.form-section .form-row-contain .form-col-container .form-style .full-name-phone-number .form-phone {
+  width: 48%;
+  float: right;
+}
+@media (max-width: 1199.98px) {
+  .form-section .form-row-contain .form-col-container .form-style .full-name-phone-number .form-phone {
+    width: 100%;
+    margin-bottom: 1rem;
+    float: unset;
+  }
+}
+.form-section .form-row-contain .form-col-container .form-style .full-name-phone-number .form-phone > input {
+  width: 100%;
+  border: 1px solid #d4d4d4;
+  outline: none;
+  padding: 9px 0 9px 10px;
+}
+.form-section .form-row-contain .form-col-container .form-style .email > input {
+  width: 100%;
+  border: 1px solid #d4d4d4;
+  outline: none;
+  padding: 9px 0 9px 10px;
+}
+.form-section .form-row-contain .form-col-container .form-style .txtarea > textarea {
+  border: 1px solid #d4d4d4;
+  outline: none;
+  padding: 9px 0 9px 10px;
+  width: 100%;
+}
+.form-section .form-row-contain .form-col-container .form-style .form-btn {
+  text-align: center;
+  padding-top: 14px;
+}
+.form-section .form-row-contain .form-col-container .form-style .form-btn > .button-animation {
+  background-color: #021a4e;
+  color: #e4c800;
+  border: none;
+  text-transform: uppercase;
+  width: 140px;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  transition: background-color 0.4s, color 0.4s;
+}

@@ -1,0 +1,89 @@
+@import '../../bootstrap-4.5.0/scss/functions.scss';
+@import '../../bootstrap-4.5.0/scss/variables.scss';
+@import '../../bootstrap-4.5.0/scss/mixins';
+@import 'variables.scss';
+// Header Section styles start
+section.image-slider
+{
+    padding: 0;
+    position: relative;
+    @include media-breakpoint-down(lg){
+        padding-top: 4rem;
+        padding-bottom: 0;
+    }
+    .carousel-slider 
+    {
+        overflow-y: hidden;
+        .carousel-indicators {
+            > li {
+                width: 10px;
+                height: 10px;
+                border-radius: 100%;
+                border: 1px solid white;
+                opacity: 1;
+                background-color: transparent;
+                margin-right: 15px;
+                &:not(.active){
+                    background-color: white;
+                }
+            }
+        }
+        .carousel-inner {
+            .carousel-item
+            {
+                .header-picture-responsive{
+                    > img {
+                        width: 100%;
+                        height: 100%;
+                        @include media-breakpoint-down(lg){
+                            height: 100%;
+                        }
+                    }
+            }
+        }
+    }
+    .header-title-container 
+    {
+            position: absolute;
+            top: 0;
+            right: 10%;
+            width: 35%;
+            background-color: rgba(2, 26, 78, 0.75);
+            color: white;
+            text-transform: uppercase;
+            margin-bottom: 120px;
+            margin-top: 140px;
+            @include media-breakpoint-down(md){
+                top: 1rem;
+                width: 83%;
+                margin: 12px 0 12px 0
+            }
+            @include media-breakpoint-between(md, lg){
+                top: 5rem;
+                width: 83%;
+                margin: 12px 0 12px 0
+            }
+            .header-title 
+            {
+                font-size: 40px;
+                font-weight: bold;
+                text-align: center;
+                position: relative;
+                top: 20%;
+                line-height: 1.63em;
+                padding: 4rem 3rem;
+                font-family: TrajanPro;
+                margin-bottom: 0;
+                @include media-breakpoint-down(md) {
+                    padding: 12px 13px;
+                    font-size: 13px;
+                }
+                @include media-breakpoint-between(md, lg){
+                    padding: 30px 13px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+// Header Section styles end
